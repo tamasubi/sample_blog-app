@@ -9,6 +9,9 @@ gem 'rails', '~> 6.1.4', '>= 6.1.4.6'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
+
+gem 'bootstrap-sass', '3.4.1'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -50,6 +53,8 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+
+  gem 'rails-controller-testing'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
