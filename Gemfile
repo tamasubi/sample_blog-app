@@ -6,9 +6,10 @@ ruby '3.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.6'
 
-gem 'faker'
+gem 'faker',                   '2.11.0'
+gem 'will_paginate',           '3.3.0'
+gem 'bootstrap-will_paginate', '1.0.0'
 
-gem 'will_paginate'
 
 gem 'bcrypt',         '3.1.13'
 
